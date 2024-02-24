@@ -22,8 +22,8 @@ public class Poco implements Phone {
     public void powerOn() {
         isPowerOn = true;
         System.out.println("Handphone menyala...");
-        System.out.println("Selamat datang di XIAOMI");
-        System.out.println("Android version 29");
+        System.out.println("Selamat datang di POCO");
+        System.out.println("Android version 32");
     }
 
     @Override
