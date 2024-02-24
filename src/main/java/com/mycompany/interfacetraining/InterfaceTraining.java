@@ -14,13 +14,13 @@ public class InterfaceTraining {
     public static void main(String[] args) {
         
         // membuat objek HP
-        Phone redmiNote8 = new Poco();
+        Phone pocoX3 = new Poco();
 
         // membuat objek user
-        PhoneUser dian = new PhoneUser(redmiNote8);
+        PhoneUser zidane = new PhoneUser(pocoX3);
 
         // kita coba nyalakan HP-nya
-        dian.turnOnThePhone();
+        zidane.turnOnThePhone();
         
         // biar enak, kita buat dalam program
         Scanner input = new Scanner(System.in);
