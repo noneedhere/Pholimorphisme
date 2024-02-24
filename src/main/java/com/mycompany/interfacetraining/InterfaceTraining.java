@@ -38,13 +38,13 @@ public class InterfaceTraining {
             aksi = input.nextLine();
             
             if(aksi.equalsIgnoreCase("1")){
-                dian.turnOnThePhone();
+                zidane.turnOnThePhone();
             } else if (aksi.equalsIgnoreCase("2")){
-                dian.turnOffThePhone();
+                zidane.turnOffThePhone();
             } else if (aksi.equalsIgnoreCase("3")){
-                dian.makePhoneLouder();
+                zidane.makePhoneLouder();
             } else if (aksi.equalsIgnoreCase("4")){
-                dian.makePhoneSilent();
+                zidane.makePhoneSilent();
             } else if (aksi.equalsIgnoreCase("0")){
                 System.exit(0);
             } else {
